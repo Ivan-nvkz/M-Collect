@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>M-Collect</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+
+
+      <header class="header">
+
+         <div class="container">
+            <div class="wrapper__container">
+               <div class="header__inner">
+                  <div class="header__top">
+                     <a class="header__logo" href="#">
+                        <img class="logo__img" src="images/logo.svg" alt="логотип">
+                     </a>
+                     <div class="header__top-content">
+                        <ul class="header__top-items">
+                           <li class="header__top-item">
+                              <form class="search-header" action="#">
+                                 <button class="search-header__button">
+                                    <img class="search-button__img" src="images/icons/search.svg" alt="поиск">
+                                 </button>
+                              </form>
+                           </li>
+                           <li class="header__top-item">
+                              <a class="header__top-link" href="#">Войти</a>
+                           </li>
+                           <li class="header__top-item">
+                              <a class="header__top-link" href="#">Избранное</a>
+                           </li>
+                           <li class="header__top-item">
+                              <a class="header__top-link" href="#">Cравнение</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="header__navigation">
+                     <nav class="menu">
+                        <ul class="menu__list">
+                           <li class="menu__item">
+                              <a class="menu__link menu__link-catalog" href="#">КАТАЛОГ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="#">Форум</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="#">КАЛЬКУЛЯТОР ДОСТАВКИ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="#">АУКЦИОН</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="#">ПОМОЩЬ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="#">БЛАГОТВОРИТЕЛЬНОСТЬ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="#">О НАС</a>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+
+                  <div class="header__content">
+
+                     <div class="header__content-slider">
+                        <div class="swiper header__slider">
+                           <div class="swiper-wrapper header__slider-wrapper">
+                              <div class="swiper-slide header__slide">
+                                 <div class="header__slide-pictures">
+                                    <img class="header__slide-img" src="images/slider/1.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide header__slide">
+                                 <div class="header__slide-pictures">
+                                    <img class="header__slide-img" src="images/slider/1.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide header__slide">
+                                 <div class="header__slide-pictures">
+                                    <img class="header__slide-img" src="images/slider/1.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide header__slide">
+                                 <div class="header__slide-pictures">
+                                    <img class="header__slide-img" src="images/slider/1.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide header__slide">
+                                 <div class="header__slide-pictures">
+                                    <img class="header__slide-img" src="images/slider/1.jpg" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-pagination header__slide-pagination"></div>
+                           <div class="header__slider-button-block">
+                              <div class="swiper-button-prev header__slider-button-prev "></div>
+                              <div class="swiper-button-next header__slider-button-next "> </div>
+                           </div>
+                        </div>
+
+                     </div>
+
+                     <aside class="header__aside">
+                        <div class="header__aside-inner">
+                           <div class="card header__aside-card">
+                              <div class="card__item">
+                                 <a class="card__picture" href="#">
+                                    <img class="card__images" src="images/card.jpg" alt="">
+                                 </a>
+                                 <div class="card__body-wrapper">
+                                    <div class="card__body">
+                                       <a class="card__body-title" href="#">
+                                          Lorem ipsum dolor
+                                          sit amet, consectetur
+                                       </a>
+                                       <div class="rating-box">
+                                          <p class="rating__seller">Продавец</p>
+                                          <p class="rating__number">4.8</p>
+                                          <img class="rating__star" src="images/icons/star.svg" alt="">
+                                       </div>
+                                    </div>
+                                    <div class="price-box">
+                                       <p class="price">1400₽</p>
+                                       <div class="price-icons">
+                                          <button class="price-icon__btn">
+                                             <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                          </button>
+                                          <button class="price-icon__btn">
+                                             <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+
+         <section class="popular">
+            <div class="container">
+               <div class="wrapper__container">
+                  <h2 class="section__title">Популярные товары</h2>
+                  <div class="popular-slider">
+                     <div class="swiper  popular__slider ">
+                        <div class="swiper-wrapper popular__slider-wrapper">
+                           <div class="swiper-slide popular__slide">
+                              <div class="card">
+                                 <div class="card__item">
+                                    <a class="card__picture" href="#">
+                                       <img class="card__images" src="images/card.jpg" alt="">
+                                    </a>
+                                    <div class="card__body-wrapper">
+                                       <div class="card__body">
+                                          <a class="card__body-title" href="#">
+                                             Lorem ipsum dolor
+                                             sit amet, consectetur
+                                          </a>
+                                          <div class="rating-box">
+                                             <p class="rating__seller">Продавец</p>
+                                             <p class="rating__number">4.8</p>
+                                             <img class="rating__star" src="images/icons/star.svg" alt="">
+                                          </div>
+                                       </div>
+                                       <div class="price-box">
+                                          <p class="price">1400₽</p>
+                                          <div class="price-icons">
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                             </button>
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide popular__slide">
+                              <div class="card">
+                                 <div class="card__item">
+                                    <a class="card__picture" href="#">
+                                       <img class="card__images" src="images/card.jpg" alt="">
+                                    </a>
+                                    <div class="card__body-wrapper">
+                                       <div class="card__body">
+                                          <a class="card__body-title" href="#">
+                                             Lorem ipsum dolor
+                                             sit amet, consectetur
+                                          </a>
+                                          <div class="rating-box">
+                                             <p class="rating__seller">Продавец</p>
+                                             <p class="rating__number">4.8</p>
+                                             <img class="rating__star" src="images/icons/star.svg" alt="">
+                                          </div>
+                                       </div>
+                                       <div class="price-box">
+                                          <p class="price">1400₽</p>
+                                          <div class="price-icons">
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                             </button>
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide popular__slide">
+                              <div class="card">
+                                 <div class="card__item">
+                                    <a class="card__picture" href="#">
+                                       <img class="card__images" src="images/card.jpg" alt="">
+                                    </a>
+                                    <div class="card__body-wrapper">
+                                       <div class="card__body">
+                                          <a class="card__body-title" href="#">
+                                             Lorem ipsum dolor
+                                             sit amet, consectetur
+                                          </a>
+                                          <div class="rating-box">
+                                             <p class="rating__seller">Продавец</p>
+                                             <p class="rating__number">4.8</p>
+                                             <img class="rating__star" src="images/icons/star.svg" alt="">
+                                          </div>
+                                       </div>
+                                       <div class="price-box">
+                                          <p class="price">1400₽</p>
+                                          <div class="price-icons">
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                             </button>
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide popular__slide">
+                              <div class="card">
+                                 <div class="card__item">
+                                    <a class="card__picture" href="#">
+                                       <img class="card__images" src="images/card.jpg" alt="">
+                                    </a>
+                                    <div class="card__body-wrapper">
+                                       <div class="card__body">
+                                          <a class="card__body-title" href="#">
+                                             Lorem ipsum dolor
+                                             sit amet, consectetur
+                                          </a>
+                                          <div class="rating-box">
+                                             <p class="rating__seller">Продавец</p>
+                                             <p class="rating__number">4.8</p>
+                                             <img class="rating__star" src="images/icons/star.svg" alt="">
+                                          </div>
+                                       </div>
+                                       <div class="price-box">
+                                          <p class="price">1400₽</p>
+                                          <div class="price-icons">
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                             </button>
+                                             <button class="price-icon__btn">
+                                                <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="header__slider-button-block">
+                           <div class="swiper-button-prev popular__slider-button-prev "></div>
+                           <div class="swiper-button-next popular__slider-button-next "></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="advertisements">
+            <div class="container">
+               <div class="wrapper__container">
+                  <h2 class="section__title">Объявления</h2>
+                  <div class="card__items  advertisements__items">
+                     <div class="card card__advertisements">
+                        <div class="card__item">
+                           <a class="card__picture advertisements-card__picture " href="#">
+                              <img class="card__images advertisements-card__images " src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body advertisements__body ">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card card__advertisements">
+                        <div class="card__item">
+                           <a class="card__picture advertisements-card__picture " href="#">
+                              <img class="card__images advertisements-card__images " src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body advertisements__body ">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card card__advertisements">
+                        <div class="card__item">
+                           <a class="card__picture advertisements-card__picture " href="#">
+                              <img class="card__images advertisements-card__images " src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body advertisements__body ">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- <section class="cards">
+            <div class="container">
+               <div class="wrapper__container">
+                  <div class="card__items">
+                     <div class="card">
+                        <div class="card__item">
+                           <a class="card__picture" href="#">
+                              <img class="card__images" src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="price-box">
+                                 <p class="price">1400₽</p>
+                                 <div class="price-icons">
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                    </button>
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card__item">
+                           <a class="card__picture" href="#">
+                              <img class="card__images" src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="price-box">
+                                 <p class="price">1400₽</p>
+                                 <div class="price-icons">
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                    </button>
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card__item">
+                           <a class="card__picture" href="#">
+                              <img class="card__images" src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="price-box">
+                                 <p class="price">1400₽</p>
+                                 <div class="price-icons">
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                    </button>
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card__item">
+                           <a class="card__picture" href="#">
+                              <img class="card__images" src="images/card.jpg" alt="">
+                           </a>
+                           <div class="card__body-wrapper">
+                              <div class="card__body">
+                                 <a class="card__body-title" href="#">
+                                    Lorem ipsum dolor
+                                    sit amet, consectetur
+                                 </a>
+                                 <div class="rating-box">
+                                    <p class="rating__seller">Продавец</p>
+                                    <p class="rating__number">4.8</p>
+                                    <img class="rating__star" src="images/icons/star.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="price-box">
+                                 <p class="price">1400₽</p>
+                                 <div class="price-icons">
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/revers.svg" alt="">
+                                    </button>
+                                    <button class="price-icon__btn">
+                                       <img class="price-icon__img" src="images/icons/favorite.svg" alt="">
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section> -->
+
+
+      </main>
+
+
+      <footer class="footer">
+         <div class="container">
+            <div class="wrapper__container">
+               <ul class="footer__items">
+                  <li class="footer__item">
+                     <nav class="menu footer-menu">
+                        <ul class="menu__list">
+                           <li class="menu__item">
+                              <a class="menu__link  footer-menu__link" href="#">Форум</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link  footer-menu__link" href="#">КАЛЬКУЛЯТОР ДОСТАВКИ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link  footer-menu__link" href="#">АУКЦИОН</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link  footer-menu__link" href="#">ПОМОЩЬ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link  footer-menu__link" href="#">БЛАГОТВОРИТЕЛЬНОСТЬ</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link  footer-menu__link" href="#">О НАС</a>
+                           </li>
+                        </ul>
+                     </nav>
+                     <ul class="footer-menu__info-items">
+                        <li class="footer-menu__info-item">
+                           <a class="footer-menu__info-link" href="#">Пользовательское соглашение</a>
+                        </li>
+                        <li class="footer-menu__info-item">
+                           <a class="footer-menu__info-link" href="#">БЛАГОТВОРИТЕЛЬНОСТЬ</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="footer__item">
+                     <ul class="social__info-items">
+                        <li class="social__info-item">
+                           <a class="mail" href="#">Markeltoys@gmail.com</a>
+                        </li>
+                        <li class="social__info-item">
+                           <a class="social__info-link" href="#">
+                              <img class="social__img" src="images/icons/icons-instagram.svg" alt="">
+                           </a>
+                           <a class="social__info-link" href="#">
+                              <img class="social__img" src="images/icons/icons-youtube.svg" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="footer__item">
+                     <div class="copy">
+                        © MARKELTOYS 2022. <br>
+                        Все права защищены
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
